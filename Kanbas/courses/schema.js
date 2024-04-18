@@ -5,8 +5,8 @@ const courseSchema = new mongoose.Schema({
     number: { type: String, required: true },
     startDate: { type: Date, required: true },
     endDate: { type: Date, required: true },
-    image: {type: String, required: true},
-    description: {type: String, required: true},
+    image: {type: String},
+    description: {type: String},
 
 },
 { collection: "courses" });
